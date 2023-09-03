@@ -36,7 +36,7 @@ To embark on our inverter design and analysis journey, we've carefully chosen a 
 ### 2.1 General MOSFET Analysis
 Our exploration begins with a detailed analysis of the MOSFET models available within the sky130 pdk. We'll be focusing on the 1.8V transistor models (pfet_01v8.sym and nfet_01v8.sym). However, feel free to experiment with other available models. Below, you'll find the schematic created in Xschem.
 
-![NMOS Characteristic Schematic](./Images/nfet_for_vgs_vs_ids.png)
+![NMOS Characteristic Schematic](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/bc18b4025a63b19ca93839e8e4a99ac9e75c18fa/Images/1.png)
 
 The components used include:
 - nfet_01v8.sym from the xschem_sky130 library
