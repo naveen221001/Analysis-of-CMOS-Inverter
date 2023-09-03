@@ -60,7 +60,7 @@ These plots provide valuable insights into the characteristics of the NMOS trans
 ### 3.1 The Fascination of CMOS Circuits
 In our journey, we've made an intriguing observation: neither NMOS nor PMOS transistors alone can produce both HIGH and LOW logic values. However, their complementary behavior inspired the idea of combining them. By placing PMOS as a Strong 1 between VDD and the output (Vout) and NMOS as a Strong 0 between Vout and GND, we create what is known as a Complementary Metal-Oxide-Semiconductor (CMOS) configuration. This forms the foundation of the simplest circuit: the CMOS inverter.
 
-![CMOS Inverter](./Images/CMOS_Inverter_Schematic.png)
+![CMOS Inverter](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/8adafb402c0aa5abaa3e30440ae0a10521eaf826/Images/6.png)
 
 CMOS circuits are divided into two networks: the pull-up network (P-channel MOSFETs) and the pull-down network (N-channel MOSFETs). This ingenious arrangement ensures that only one transistor is on at any given time, eliminating resistive paths to ground and allowing for the generation of Strong High and Strong Low outputs.
 
