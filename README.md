@@ -9,7 +9,7 @@ Our adventure commences with a comprehensive analysis of NMOS and PMOS devices, 
 
 Our journey also serves as a captivating case study in utilizing SPICE's programming capabilities to enhance our measurement and analysis skills. If all goes according to plan, this project will conclude with a deeper appreciation for inverter design and its pivotal role in modern electronics.
 
-![Innovative Inverter Design](./Images/inverter_intro_picture.png)
+![Innovative Inverter Design](./Images/Untitled design(1).png)
 
 ---
 
