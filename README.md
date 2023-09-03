@@ -49,6 +49,8 @@ We'll use this setup to generate basic characteristic plots for an NMOS Transist
 
 ![Ids vs Vds](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/78b674dc546dc17b7bb73cdd93c312c69e0fb32b/Images/4.png)
 
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/6831eb9d596684340219a443b74ec002571e2937/Images/3.png)
+
 These plots provide valuable insights into the characteristics of the NMOS transistor.
 
 ## 3. Unraveling the CMOS Inverter
