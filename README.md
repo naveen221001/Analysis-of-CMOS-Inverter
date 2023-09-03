@@ -71,16 +71,16 @@ This section serves as a comprehensive exploration of inverter analysis, encompa
 
 ![CMOS Inverter Schematic](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/9856dc33073a5358ab8b366cb8f25b35c88eda44/Images/Screenshot%20from%202023-09-03%2018-34-41.png)
 ![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/29c91c5c97c22c2f548507241ee6646a570d14a0/Images/Screenshot%20from%202023-09-03%2018-33-59.png)
-![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/f371a07dca4f3ed7dc2790a670def3cf8084cf1a/Images/Screenshot%20from%202023-09-03%2018-32-44.png)
+
 
 With our schematic in place, we embark on a series of calculations. Throughout this journey, the term (W/L) is referred to as S or Aspect Ratio for simplicity. We utilize a designated testbench for transient and DC analysis:
 
-![CMOS Inverter Testbench](./Images/cmos_inv_tb.png)
+![CMOS Inverter Testbench](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/f371a07dca4f3ed7dc2790a670def3cf8084cf1a/Images/Screenshot%20from%202023-09-03%2018-32-44.png)
 
 #### 3.2.1 DC Analysis and Key Design Parameters
 DC analysis plays a pivotal role in plotting the Voltage Transfer Characteristics (VTC) curve of the CMOS inverter. This analysis involves sweeping the Vin (input voltage) from high to low to observe how the circuit responds to different input voltage levels. The resulting VTC curve reveals crucial insights into the inverter's behavior.
 
-![CMOS Inverter VTC](./Images/cmos_inv_dc_anal.png)
+![CMOS Inverter VTC](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/b3f5caa74480e708472256973612410b3ff9e541/Images/12.png)
 
 The VTC curve depicts how the output changes concerning variations in the input voltage. In our case, the curve resembles a square wave (albeit non-ideal), transitioning around 0.75 volts of input. Five distinct regions of operation emerge, each corresponding to the behavior of the NMOS and PMOS transistors with respect to input potential changes.
 
