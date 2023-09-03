@@ -45,7 +45,7 @@ The components used include:
 
 We'll use this setup to generate basic characteristic plots for an NMOS Transistor, such as Ids vs Vds and Ids vs Vgs. To achieve this, save the circuit with the specified component placements, and then click on Netlist and Simulate. Ngspice will take over, performing the necessary simulations and calculations. Afterward, you can use commands like display and setplot to explore and plot the available vectors.
 
-![Ids vs Vgs](./Images/nfet_Ids_vs_Vgs.png)
+![Ids vs Vgs](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/6eaf9a24c4e4a2eb5563ec2f756f1ea19e873f24/Images/2.png)
 
 ![Ids vs Vds](./Images/nfet_Ids_vs_Vds.png)
 
