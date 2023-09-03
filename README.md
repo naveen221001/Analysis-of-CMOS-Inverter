@@ -47,7 +47,7 @@ We'll use this setup to generate basic characteristic plots for an NMOS Transist
 
 ![Ids vs Vgs](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/6eaf9a24c4e4a2eb5563ec2f756f1ea19e873f24/Images/2.png)
 
-![Ids vs Vds](./Images/nfet_Ids_vs_Vds.png)
+![Ids vs Vds](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/78b674dc546dc17b7bb73cdd93c312c69e0fb32b/Images/4.png)
 
 These plots provide valuable insights into the characteristics of the NMOS transistor.
 
