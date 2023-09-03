@@ -70,7 +70,8 @@ Before we dive into the intricacies of the CMOS inverter, let's revisit its fund
 This section serves as a comprehensive exploration of inverter analysis, encompassing schematic design, parameter measurement, experimentation, and the development of a circuit capable of meeting our initial objectives. Our schematic design is based on the earlier-determined (W/L) ratios, with PMOS having an S (Aspect Ratio) of 4 times that of NMOS, and NMOS having S = 1/0.30 microns. A symbol for this design is also created for ease of schematic creation.
 
 ![CMOS Inverter Schematic](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/9856dc33073a5358ab8b366cb8f25b35c88eda44/Images/Screenshot%20from%202023-09-03%2018-34-41.png)
-![..]()
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/29c91c5c97c22c2f548507241ee6646a570d14a0/Images/Screenshot%20from%202023-09-03%2018-33-59.png)
+![..]
 
 With our schematic in place, we embark on a series of calculations. Throughout this journey, the term (W/L) is referred to as S or Aspect Ratio for simplicity. We utilize a designated testbench for transient and DC analysis:
 
