@@ -83,6 +83,7 @@ DC analysis plays a pivotal role in plotting the Voltage Transfer Characteristic
 ![CMOS Inverter VTC](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/b3f5caa74480e708472256973612410b3ff9e541/Images/12.png)
 
 The VTC curve depicts how the output changes concerning variations in the input voltage. Five distinct regions of operation emerge, each corresponding to the behavior of the NMOS and PMOS transistors with respect to input potential changes as shown below:
+
 ![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/b37b2ac31eec2fbc16c7fe2be70f8ede35aa6d90/Images/xOvt4.jpg)
 
 
