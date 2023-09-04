@@ -127,6 +127,10 @@ We can also reduce the power consumption by reducing the switching activity, Vdd
 #### 3.2.3 Transient Analysis for Propagation Delay, RIse delay and Fall delay
 
 Propagation Delay: We do the transient analysis to find out the time distance when input goes 50% of the original value corresponding the output transtion to 50% of the actual.
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/047db69ca1ed95e5ebd097a988f888e28f7a2d12/Images/21.png)
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/047db69ca1ed95e5ebd097a988f888e28f7a2d12/Images/24.png)
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/047db69ca1ed95e5ebd097a988f888e28f7a2d12/Images/25.png)
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/047db69ca1ed95e5ebd097a988f888e28f7a2d12/Images/26.png)
 
 
 
