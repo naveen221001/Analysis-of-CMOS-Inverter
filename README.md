@@ -22,6 +22,8 @@ Our journey also serves as a captivating case study in utilizing SPICE's program
   - [3.1 The Fascination of CMOS Circuits](#31-the-fascination-of-cmos-circuits) 
   - [3.2 In-Depth Analysis of the CMOS Inverter (Pre-Layout)](#32-in-depth-analysis-of-the-cmos-inverter-pre-layout)
     - [3.2.1 DC Analysis and Key Design Parameters](#321-dc-analysis-and-key-design-parameters)
+    - [3.2.2 Power Analysis (Transient) and Key Design Parameters](#322-dc-analysis-and-key-design-parameters)
+
 
 ## 1. Tools and PDK Setup
 
@@ -100,6 +102,22 @@ Notably, Vth should ideally be at VDD/2 for maximum noise margins. Initially, ac
 
 ![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/5053726dd34804a8fd07cb0af90eb71ce53647c0/Images/8.png)
 
+#### 3.2.1 Power Analysis (Transient) and Key Design Parameters
+
+For power calculations, we need to do the trnsient analysis because the average power is integrating power from 0 to a finite time and then divide it by time.
+In this analysis we are taking the width of pmos as 2 and that of nmos at 1.
+The plot of current vs Vout in the figure shown below signifies that while charging the load capacitance, the current is drawn from the Vdd source. But when it discharges the current is constant because, during the second half cycle, the pmos is off, and the current in nmos directly discharges to the ground, there is no connection between Vdd and nmos during this cycle.
+
+There are majorly three types of power we come across in our study.
+1)Dynamic Power: Represented in blue, whenever we are switching we have this dynamic power.
+2)Short Circuit Power: It come only due to non-ideality of our input, clock, as in our simulation we have finite value of Vin pulse. Due to this we have a situation where both our pmos and nmos are on, so we have a path directly from Vdd to Ground. Its is somewhat represented by red when the curve is not constant.
+3)Static Power: This happens when either of nmos or pmos is off. And, is represented by red where the curve is constant.
+
+![..]()
+
+Calculating Power:
+Taking a time period, where we will integrate the current over that period and multiply that with the voltage 1.8v and then divide the whole thing by the time to get the average power over that cycle.
 Our quest for inverter excellence also reveals that the total power dissipation is less for our device. Notably, power consumption spikes only during state transitions, which occur within the transition region.
+We can aloso reduce the power consumption by reducing the switching activity, Vdd and load capacitance.
 
 Join us on this thrilling journey of discovery into the fascinating world of inverter design and analysis!
