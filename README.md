@@ -133,6 +133,10 @@ Propagation Delay: We do the transient analysis to find out the time distance wh
 ![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/047db69ca1ed95e5ebd097a988f888e28f7a2d12/Images/26.png)
 
 
+Rise Time & Fall Time Calculation: 
+Rise time can be calculated as the time taken by the voltage output to rise from 10% of its value to 90%.
+Fall time can be calculated as the time taken by the voltage output to fall from 90% of its value to 10%.
 
+![..]()
 
 Join us on this thrilling journey of discovery into the fascinating world of inverter design and analysis!
