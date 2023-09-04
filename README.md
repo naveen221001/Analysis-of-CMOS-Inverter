@@ -121,10 +121,14 @@ There are majorly three types of power we come across in our study.
 Calculating Power:
 Taking a time period, where we will integrate the current over that period and multiply that with the voltage 1.8v and then divide the whole thing by the time to get the average power over that cycle.
 Our quest for inverter excellence also reveals that the total power dissipation is less for our device. Notably, power consumption spikes only during state transitions, which occur within the transition region.
-We can aloso reduce the power consumption by reducing the switching activity, Vdd and load capacitance.
+We can also reduce the power consumption by reducing the switching activity, Vdd and load capacitance.
 ![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/3c064298f050441677c519ce4066c168dca5bd6e/Images/16.png)
 
-#### 3.2.3 Transient Analysis for Rise and Fall Delay
+#### 3.2.3 Transient Analysis for Propagation Delay, RIse delay and Fall delay
+
+Propagation Delay: We do the transient analysis to find out the time distance when input goes 50% of the original value corresponding the output transtion to 50% of the actual.
+
+
 
 
 Join us on this thrilling journey of discovery into the fascinating world of inverter design and analysis!
