@@ -98,6 +98,8 @@ Notably, Vth should ideally be at VDD/2 for maximum noise margins. Initially, ac
 
 ![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/81adef315dc10f5933679fdfb1186144430725bc/Images/7.png)
 
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/5053726dd34804a8fd07cb0af90eb71ce53647c0/Images/8.png)
+
 Our quest for inverter excellence also reveals that the total power dissipation is less for our device. Notably, power consumption spikes only during state transitions, which occur within the transition region.
 
 Join us on this thrilling journey of discovery into the fascinating world of inverter design and analysis!
