@@ -94,7 +94,9 @@ To fully understand the inverter's performance, we examine five critical paramet
 - VIL (Minimum input voltage interpreted as logic '1')
 - Vth (Inverter Threshold voltage)
 
-Notably, Vth should ideally be at VDD/2 for maximum noise margins. Initially, achieving this precise value might be elusive, but adjustments to device parameters can bring us closer to this target. Our simulations help us identify optimal parameters to achieve a Vth closer to Vdd/2, enhancing noise margins.
+Notably, Vth should ideally be at VDD/2 for maximum noise margins. Initially, achieving this precise value might be elusive, but adjustments to device parameters can bring us closer to this target. Our simulations help us identify optimal parameters to achieve a Vth closer to Vdd/2, enhancing noise margins.In our simulation the noise margin is pretty good, till 0.7 V the input voltage is identified as logic '0' 
+
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/81adef315dc10f5933679fdfb1186144430725bc/Images/7.png)
 
 Our quest for inverter excellence also reveals that the total power dissipation is less for our device. Notably, power consumption spikes only during state transitions, which occur within the transition region.
 
