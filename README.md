@@ -138,6 +138,6 @@ Rise time can be calculated as the time taken by the voltage output to rise from
 Fall time can be calculated as the time taken by the voltage output to fall from 90% of its value to 10%.
 
 ![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/9e2bcacb88964ff6040195f8a9ac5a7c07d39030/Images/23.png)
-![..]()
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/5ecf9c44dfc0bb9f6cfd2067cc6809854f1a6a72/Images/switch1_new.jpg)
 
 Join us on this thrilling journey of discovery into the fascinating world of inverter design and analysis!
