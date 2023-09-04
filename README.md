@@ -23,6 +23,7 @@ Our journey also serves as a captivating case study in utilizing SPICE's program
   - [3.2 In-Depth Analysis of the CMOS Inverter (Pre-Layout)](#32-in-depth-analysis-of-the-cmos-inverter-pre-layout)
     - [3.2.1 DC Analysis and Key Design Parameters](#321-dc-analysis-and-key-design-parameters)
     - [3.2.2 Power Analysis (Transient) and Key Design Parameters](#322-dc-analysis-and-key-design-parameters)
+    - [3.2.3 Transient Analysis via graph for rise delay and fall delay](#323-rise-fall-delay)
 
 
 ## 1. Tools and PDK Setup
@@ -102,7 +103,7 @@ Notably, Vth should ideally be at VDD/2 for maximum noise margins. Initially, ac
 
 ![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/5053726dd34804a8fd07cb0af90eb71ce53647c0/Images/8.png)
 
-#### 3.2.1 Power Analysis (Transient) and Key Design Parameters
+#### 3.2.2 Power Analysis (Transient) and Key Design Parameters
 
 For power calculations, we need to do the trnsient analysis because the average power is integrating power from 0 to a finite time and then divide it by time.
 In this analysis we are taking the width of pmos as 2 and that of nmos at 1.
@@ -114,12 +115,16 @@ There are majorly three types of power we come across in our study.
 3)Static Power: This happens when either of nmos or pmos is off. And, is represented by red where the curve is constant.
 
 ![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/3c064298f050441677c519ce4066c168dca5bd6e/Images/19.png)
-![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/3c064298f050441677c519ce4066c168dca5bd6e/Images/16.png)
+
 ![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/3c064298f050441677c519ce4066c168dca5bd6e/Images/18.png)
 
 Calculating Power:
 Taking a time period, where we will integrate the current over that period and multiply that with the voltage 1.8v and then divide the whole thing by the time to get the average power over that cycle.
 Our quest for inverter excellence also reveals that the total power dissipation is less for our device. Notably, power consumption spikes only during state transitions, which occur within the transition region.
 We can aloso reduce the power consumption by reducing the switching activity, Vdd and load capacitance.
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/3c064298f050441677c519ce4066c168dca5bd6e/Images/16.png)
+
+#### 3.2.3 Transient Analysis for Rise and Fall Delay
+
 
 Join us on this thrilling journey of discovery into the fascinating world of inverter design and analysis!
