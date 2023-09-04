@@ -82,7 +82,9 @@ DC analysis plays a pivotal role in plotting the Voltage Transfer Characteristic
 
 ![CMOS Inverter VTC](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/b3f5caa74480e708472256973612410b3ff9e541/Images/12.png)
 
-The VTC curve depicts how the output changes concerning variations in the input voltage. In our case, the curve resembles a square wave (albeit non-ideal), transitioning around 0.75 volts of input. Five distinct regions of operation emerge, each corresponding to the behavior of the NMOS and PMOS transistors with respect to input potential changes.
+The VTC curve depicts how the output changes concerning variations in the input voltage. Five distinct regions of operation emerge, each corresponding to the behavior of the NMOS and PMOS transistors with respect to input potential changes as shown below:
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/b37b2ac31eec2fbc16c7fe2be70f8ede35aa6d90/Images/xOvt4.jpg)
+
 
 To fully understand the inverter's performance, we examine five critical parameters:
 - VOH (Maximum output voltage for logic '1')
@@ -93,6 +95,6 @@ To fully understand the inverter's performance, we examine five critical paramet
 
 Notably, Vth should ideally be at VDD/2 for maximum noise margins. Initially, achieving this precise value might be elusive, but adjustments to device parameters can bring us closer to this target. Our simulations help us identify optimal parameters to achieve a Vth closer to Vdd/2, enhancing noise margins.
 
-Our quest for inverter excellence also reveals that the total power dissipation is a mere 5.55u Watts for our device. Notably, power consumption spikes only during state transitions, which occur within the transition region, spanning a width of (VIH - VIL) = 0.24V.
+Our quest for inverter excellence also reveals that the total power dissipation is less for our device. Notably, power consumption spikes only during state transitions, which occur within the transition region.
 
 Join us on this thrilling journey of discovery into the fascinating world of inverter design and analysis!
