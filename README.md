@@ -113,7 +113,9 @@ There are majorly three types of power we come across in our study.
 2)Short Circuit Power: It come only due to non-ideality of our input, clock, as in our simulation we have finite value of Vin pulse. Due to this we have a situation where both our pmos and nmos are on, so we have a path directly from Vdd to Ground. Its is somewhat represented by red when the curve is not constant.
 3)Static Power: This happens when either of nmos or pmos is off. And, is represented by red where the curve is constant.
 
-![..]()
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/3c064298f050441677c519ce4066c168dca5bd6e/Images/19.png)
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/3c064298f050441677c519ce4066c168dca5bd6e/Images/16.png)
+![..](https://github.com/naveen221001/Analysis-of-CMOS-Inverter/blob/3c064298f050441677c519ce4066c168dca5bd6e/Images/18.png)
 
 Calculating Power:
 Taking a time period, where we will integrate the current over that period and multiply that with the voltage 1.8v and then divide the whole thing by the time to get the average power over that cycle.
